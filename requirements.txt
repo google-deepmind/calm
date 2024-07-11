@@ -1,0 +1,6 @@
+torch==2.3.1
+transformers==4.42.3
+numpy
+datasets
+accelerate
+tensorboard
