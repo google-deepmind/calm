@@ -1,7 +1,7 @@
 
 # CALM: Expanding LLM Capabilities through Composition
 
-This repository provides the code for implementing the CALM (Composition to Augment Language Models) framework described in the paper "LLMs Augmented LLMs: Expanding Capabilities through Composition". In this paper, we describe composing two language models by introducing cross-attention between models to compose their representations and enable new capabilities. The code currently supports combining any two models built with the Gemma architecture.
+This repository provides the code for implementing the CALM (Composition to Augment Language Models) framework described in the paper ["LLMs Augmented LLMs: Expanding Capabilities through Composition"](https://arxiv.org/abs/2401.02412). In this paper, we describe composing two language models by introducing cross-attention between models to compose their representations and enable new capabilities. The code currently supports combining any two models built with the Gemma architecture.
 
 ## Installation
 
@@ -27,7 +27,7 @@ huggingface-cli login
 
 ## Usage
 
-Ex. Initialising a composed model
+Ex. Initialising a composed model. You can compose the models by providing the model paths under the arguments `anchor_model` and `aug_model`. Models that are loaded via `transformers.AutoModelForCausalLM` (autoregressive, decoder-only Gemma style models) in Huggingface / Local Directories are supported.
 
 ```
 from model import calm
@@ -145,7 +145,6 @@ print(tokenizer.decode(generate_ids[0], skip_special_tokens=True))
 Copyright 2024 DeepMind Technologies Limited
 
 For HuggingFace Transformers - Copyright 2018 Hugging Face, licensed under Apache 2.0
-For Hugging Face Dataset - Copyright Hugging Face, licensed under Apache 2.0
 
 All software is licensed under the Apache License, Version 2.0 (Apache 2.0);
 you may not use this file except in compliance with the Apache 2.0 license.
@@ -166,5 +165,5 @@ This is not an official Google product.
 
 ## Contact
 
-Please direct any questions at calm\_opensource@google.com
+Please direct any questions at calm-contact@google.com
 
