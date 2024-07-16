@@ -144,6 +144,9 @@ print(tokenizer.decode(generate_ids[0], skip_special_tokens=True))
 
 Copyright 2024 DeepMind Technologies Limited
 
+For HuggingFace Transformers - Copyright 2018 Hugging Face, licensed under Apache 2.0
+For Hugging Face Dataset - Copyright Hugging Face, licensed under Apache 2.0
+
 All software is licensed under the Apache License, Version 2.0 (Apache 2.0);
 you may not use this file except in compliance with the Apache 2.0 license.
 You may obtain a copy of the Apache 2.0 license at:
@@ -160,3 +163,8 @@ either express or implied. See the licenses for the specific language governing
 permissions and limitations under those licenses.
 
 This is not an official Google product.
+
+## Contact
+
+Please direct any questions at calm\_opensource@google.com
+
