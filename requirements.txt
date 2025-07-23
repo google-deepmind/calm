@@ -1,6 +1,6 @@
-torch==2.3.1
-transformers==4.42.3
+torch==2.6.0
+transformers==4.48.0
 numpy
-datasets
+datasets==2.15.0
 accelerate
 tensorboard

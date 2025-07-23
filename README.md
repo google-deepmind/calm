@@ -12,10 +12,10 @@ git clone https://github.com/google-deepmind/calm.git
 cd calm
 ```
 
-Create a virtual environment using virtualenv or conda depending on your preferences and install the requirements. We require Python 3.10 or above:
+Create a virtual environment using virtualenv or conda depending on your preferences and install the requirements. We require Python 3.11 or above:
 
 ```
-conda create -n calm python=3.10 && conda activate calm
+conda create -n calm python=3.11.11 && conda activate calm
 pip install -r requirements.txt
 ```
 
